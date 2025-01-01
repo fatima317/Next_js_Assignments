@@ -1,9 +1,10 @@
 import React from 'react'
+import '../style.css'
 
 const About = () => {
   return (
-    <div>
-      <h1 className='text-center text-blue-950 font-bold text-2xl'>This is About Page</h1>
+    <div className="about-container">
+      <h2 className="about-heading">This is About Page</h2>
     </div>
   )
 }

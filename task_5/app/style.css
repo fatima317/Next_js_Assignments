@@ -1,0 +1,89 @@
+/* styles/about.css */
+.about-container {
+  text-align: center;
+}
+
+.about-heading {
+  color: #1e3a8a; /* Blue-950 equivalent */
+  font-weight: bold;
+  font-size: 1.5rem; /* 2xl equivalent */
+}
+
+/* styles/footer.css */
+.footer-container {
+  text-align: center;
+}
+
+.footer-heading {
+  color: #1e3a8a; /* Blue-950 equivalent */
+  font-weight: bold;
+  font-size: 1.5rem; /* 2xl equivalent */
+}
+
+/* styles/navbar.css */
+.navbar {
+  display: flex;
+  background-color: #1e40af; /* Blue-900 equivalent */
+  color: white;
+}
+
+.navbar-link {
+  margin-right: 4rem;
+  font-size: 1.5rem; /* 2xl equivalent */
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #60a5fa; /* Blue-400 equivalent */
+}
+
+/* styles/contact.css */
+.contact-container {
+  text-align: center;
+}
+
+.contact-heading {
+  color: #1e3a8a; /* Blue-950 equivalent */
+  font-weight: bold;
+  font-size: 1.5rem; /* 2xl equivalent */
+}
+
+/* styles/home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.home-heading {
+  font-size: 2.25rem; /* 4xl equivalent */
+  color: #1e3a8a; /* Blue-950 equivalent */
+  font-weight: bold;
+  text-align: center;
+}
+
+.home-paragraph {
+  font-size: 1.25rem; /* XL equivalent */
+  color: #6b7280; /* Gray-500 equivalent */
+  text-align: center;
+}
+
+.home-nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e40af; /* Blue-900 equivalent */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.home-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #1e3a8a; /* Blue-800 equivalent */
+}

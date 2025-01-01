@@ -1,9 +1,10 @@
 import React from 'react'
+import '../style.css'
 
 const Footer = () => {
   return (
-    <div>
-      <h1 className='text-center text-blue-950 font-bold text-2xl'> This is Footer</h1> 
+    <div className="footer-container">
+      <h2 className="footer-heading"> This is Footer</h2> 
     </div>
   )
 }

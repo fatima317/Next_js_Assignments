@@ -1,9 +1,10 @@
 import React from 'react'
+import '../style.css'
 
 const Contact = () => {
   return (
-    <div>
-      <h1 className='text-center text-blue-950 font-bold text-2xl'>This is Contact Page</h1>
+    <div className="contact-container">
+      <h2 className="contact-heading">This is Contact Page</h2>
     </div>
   )
 }
