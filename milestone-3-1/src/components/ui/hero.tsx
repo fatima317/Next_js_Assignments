@@ -1,5 +1,6 @@
 import React from 'react';
 import BlogCard from "@/components/ui/blogCard";
+import Link from 'next/link';
 
 export default function Hero() {
   const blogs = [
@@ -38,9 +39,9 @@ export default function Hero() {
         <h2 className='text-3xl text-black font-bold mb-4 px-28'>Featured Articles</h2>
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 px-28 py-8 gap-12 mb-4">
           {blogs.map((blog) => (
-            <a key={blog.path} href={`/blog/${blog.path}`} className="group block bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+            <Link key={blog.path} href={`/blog/${blog.path}`} className="group block bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
               <BlogCard blog={blog} />
-            </a>
+            </Link>
           ))}
         </div>
       </div>

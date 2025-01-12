@@ -28,7 +28,7 @@ const Contact = () => {
       <section className="py-20 px-28">
         <h2 className="text-4xl font-bold text-black text-center mb-6">Contact Us</h2>
         <p className="text-xl text-gray-700 text-center mb-6">
-          Have a question or want to get in touch? We'd love to hear from you! Fill out the form below or reach us through other contact details.
+          Have a question or want to get in touch? We would love to hear from you! Fill out the form below or reach us through other contact details.
         </p>
       </section>
 
