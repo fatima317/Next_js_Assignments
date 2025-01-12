@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 // Simulate a database (in-memory)
-let books = [
+const books = [
   {
     id: 1,
     title: "Harry Potter",
