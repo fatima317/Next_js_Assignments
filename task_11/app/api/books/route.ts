@@ -68,6 +68,7 @@ export async function GET() {
   try {
     return NextResponse.json(books, { status: 200 });
   } catch (error) {
+    console.error('GET error:', error);
     return NextResponse.json(
       { message: "Error fetching books" },
       { status: 500 }
@@ -92,6 +93,7 @@ export async function POST(request: Request) {
 
     return NextResponse.json(newBook, { status: 201 }); // Status 201 means created
   } catch (error) {
+    console.error('POST error:', error); 
     return NextResponse.json(
       { message: "Error adding new book" },
       { status: 500 }
@@ -117,6 +119,7 @@ export async function PUT(request: Request) {
 
     return NextResponse.json(books[bookIndex], { status: 200 });
   } catch (error) {
+    console.error('PUT error:', error);
     return NextResponse.json(
       { message: "Error updating the book" },
       { status: 500 }
@@ -141,6 +144,7 @@ export async function DELETE(request: Request) {
 
     return NextResponse.json({ message: "Book deleted" }, { status: 200 });
   } catch (error) {
+    console.error('DELETE error:', error); 
     return NextResponse.json(
       { message: "Error deleting the book" },
       { status: 500 }
